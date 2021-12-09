@@ -68,20 +68,63 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="chipt.css" />
-    <Content Include="css\img\Categoria_Bebes.jfif" />
-    <Content Include="css\img\Categoria_Bebes2.jfif" />
-    <Content Include="css\img\Categoria_Cuidado.jfif" />
-    <Content Include="css\img\Categoria_Medicamentos.jpg" />
-    <Content Include="css\img\Categoria_Suplementos.jpg" />
+    <Content Include="css\Admin.css" />
+    <Content Include="css\demo-files\demo.css" />
+    <Content Include="css\demo-files\demo.js" />
+    <Content Include="css\demo.html" />
+    <Content Include="css\fonts\icomoon.svg" />
+    <Content Include="css\Fuentes\promo.png" />
+    <Content Include="css\Fuentes\readme.txt" />
+    <Content Include="css\img\demo-files\demo.css" />
+    <Content Include="css\img\demo-files\demo.js" />
+    <Content Include="css\img\demo.html" />
+    <Content Include="css\img\FARMACIA_LOGIN.jpg" />
+    <Content Include="css\img\fonts\icomoon.svg" />
+    <Content Include="css\img\Lupa.png" />
+    <Content Include="css\img\Read Me.txt" />
+    <Content Include="css\img\search.svg" />
+    <Content Include="css\img\style.css" />
+    <Content Include="css\Juan.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\Read Me.txt" />
+    <Content Include="img\Categoria_Bebes.jfif" />
+    <Content Include="img\Categoria_Bebes2.jfif" />
+    <Content Include="img\Categoria_Cuidado.jfif" />
+    <Content Include="img\Categoria_Medicamentos.jpg" />
+    <Content Include="img\Categoria_Suplementos.jpg" />
     <Content Include="css\Menu.css" />
     <Content Include="css\Registro.css" />
     <Content Include="css\style.css" />
-    <Content Include="HtmlPage1.html" />
+    <Content Include="Juanreturn.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Menu.aspx" />
     <Content Include="productos.aspx" />
+    <Content Include="Registrar.aspx" />
     <Content Include="Web.config" />
-    <Content Include="registro.aspx" />
+    <Content Include="Administrador.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Juanreturn.aspx.cs">
+      <DependentUpon>Juanreturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Juanreturn.aspx.designer.cs">
+      <DependentUpon>Juanreturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="productos.aspx.cs">
       <DependentUpon>productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,15 +133,38 @@
       <DependentUpon>productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="registro.aspx.cs">
-      <DependentUpon>registro.aspx</DependentUpon>
+    <Compile Include="Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="registro.aspx.designer.cs">
-      <DependentUpon>registro.aspx</DependentUpon>
+    <Compile Include="Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador.aspx.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador.aspx.designer.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fonts\icomoon.eot" />
+    <Content Include="css\fonts\icomoon.ttf" />
+    <Content Include="css\fonts\icomoon.woff" />
+    <Content Include="css\Fuentes\Abecedary-Italic.ttf" />
+    <Content Include="css\Fuentes\Abecedary-Regular.ttf" />
+    <Content Include="css\Fuentes\abecedary.zip" />
+    <Content Include="css\Fuentes\Sagha Demo.ttf" />
+    <Content Include="css\Fuentes\TheStudentsTeacher-Regular.ttf" />
+    <Content Include="css\Fuentes\the_students_teacher.zip" />
+    <Content Include="css\icomoon %281%29.zip" />
+    <Content Include="css\img\fonts\icomoon.eot" />
+    <Content Include="css\img\fonts\icomoon.ttf" />
+    <Content Include="css\img\fonts\icomoon.woff" />
+    <Content Include="css\img\icomoon.zip" />
+    <Content Include="css\img\selection.json" />
+    <Content Include="css\selection.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -107,7 +173,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
