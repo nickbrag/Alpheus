@@ -32,7 +32,7 @@
                 </li>
             </ul></a>
             <button class="Carrito"><span class="icon-cart"></span></button>
-            <button class="Iniciar-Registrar">Iniciar Sesión</button>
+            <button class="Iniciar-Registrar" id="btnIniciar" onclick="BtnIniciar_Click">Iniciar Sesión</button>
 
 
 </html>
