@@ -97,6 +97,10 @@ input[type="text"]{
     padding: 0px;
 }
 
+.lista:hover {
+        background-color: #e6e6e69f;
+}
+
 .Boton-Categoria{
     font-family: "Calibri";
     margin: 0px 0px;

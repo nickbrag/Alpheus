@@ -15,22 +15,13 @@ namespace WebApplication3
     {
 
         /// <summary>
-        /// Control form2.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
-
-        /// <summary>
-        /// Control Inicio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Inicio;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// Control Buscar.
@@ -112,15 +103,6 @@ namespace WebApplication3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Carrito;
-
-        /// <summary>
-        /// Control Iniciar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Iniciar;
 
         /// <summary>
         /// Control Nombre.

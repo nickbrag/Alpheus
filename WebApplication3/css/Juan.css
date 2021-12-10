@@ -2,6 +2,11 @@ body{
     background-color: rgb(151, 214, 250);
 }
 
+a {
+    color: black;
+    text-decoration: inherit;
+}
+
 @font-face {
     font-family: "Abecedary";
     src: url(Fuentes/Abecedary-Regular.ttf);

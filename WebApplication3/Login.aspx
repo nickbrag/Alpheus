@@ -22,7 +22,7 @@
                 </br>
                 </br>
                 <asp:Button ID="boton_ingresar" runat="server" Text="Iniciar Sesión"  CssId="boton_ingresar" OnClick="boton_ingresar_Click"/>
-                <asp:Button ID="boton_registrar" runat="server" Text="Registrarse"  CssId="boton_registrar"/>
+                <a href="Registrar.aspx" class="boton_registrar">Registrar</a>
         </div>
     </form>
 </body>
