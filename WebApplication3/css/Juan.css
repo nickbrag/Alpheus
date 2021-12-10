@@ -1,0 +1,274 @@
+body{
+    background-color: rgb(151, 214, 250);
+}
+
+@font-face {
+    font-family: "Abecedary";
+    src: url(Fuentes/Abecedary-Regular.ttf);
+}
+
+div{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menu{
+    margin-bottom: 100px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px 15px 15px 15px;
+    display: inline;
+    position: absolute;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Inicio{
+    font-size: 30px;
+    font-family: "Abecedary";
+    background-color: rgb(94, 191, 247);
+    border: rgb(250, 250, 250);
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px 0px 0px 15px;
+    margin: 0px 0px;
+}
+
+.Inicio:hover{
+    background-color: rgb(14, 167, 255);
+}
+
+.Buscar{
+    background-color: #f9f9f9;
+    margin: 0px 0px;
+    margin-left: 15px;
+    border: rgb(250, 250, 250);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.icon-search{
+    size: 1000px;
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.Buscar:hover{
+    background-color: #e6e6e69f;
+}
+
+input[type="text"]{
+    background-color: #f9f9f9;
+    margin: 0px 0px;
+    margin-left: 15px;
+    border: rgb(250, 250, 250);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.Categoria{
+    display: inline;
+    font-family: "Calibri";
+    margin: 0px 0px;
+    font-size: 20px;
+    background-color: rgb(250, 250, 250);
+    border: rgb(250, 250, 250);
+    border-radius: 15px;
+    size: 2px;
+    padding: 0px;
+}
+
+.Boton-Categoria{
+    font-family: "Calibri";
+    margin: 0px 0px;
+    font-size: 20px;
+    background-color: rgb(250, 250, 250);
+    border: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Boton-Categoria:hover{
+    background-color: #e6e6e69f;
+}
+
+.Categoria a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+}
+
+.Categoria-text{
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+
+.Categoria li a:hover{
+    background-color: #e6e6e69f;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.Categoria:hover{
+    background-color: #e6e6e69f;
+}
+
+.Categoria li ul{
+    display: none;
+    position: absolute;
+}
+
+.Categoria li:hover > ul{
+    margin-left: 600px;
+    padding: 20px;
+    display: block;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    margin-bottom: 1000px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Carrito{
+    margin-left: 335px; 
+    background-color: rgb(250, 250, 250);
+    border: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Carrito:hover{
+    background-color: #e6e6e69f;
+}
+
+.Iniciar-Registrar{
+    font-family: "Calibri";
+    margin: 0px 0px;
+    font-size: 20px;
+    background-color: rgb(250, 250, 250);
+    border: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Iniciar-Registrar:hover{
+    background-color: #e6e6e69f;
+}
+
+.Datos{
+    height: 1200px;
+    width: 1200px;
+    margin-left:20px;
+    border-radius: 20px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Titulo{
+    font-family: "Calibri";
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.Direccion{
+    font-family: "Abecedary";
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.Metodo{
+    font-family: "Abecedary";
+    font-size: 30px;
+    margin-left: 400px;
+}
+
+div h2{
+    font-family: "Abecedary";
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+div h3{
+    font-family: "Abecedary";
+    margin-left: 30px;
+}
+
+div label{
+    margin-left: 30px;
+    font-family: "Calibri";
+}
+
+.Nombre{
+    margin-left: 150px;
+}
+
+.Apellido_Paterno{
+    margin-left: 96px;
+}
+
+.Apellido_Materno{
+    margin-left: 90px;
+}
+
+.Fecha{
+    margin-left: 69px;
+}
+
+.Correo{
+    margin-left: 105px;
+}
+
+.Contraseña{
+    margin-left: 105px;
+}
+
+.Contraseña2{
+    margin-left: 105px;
+}
+
+.Datos input[type="text"]{
+    margin-left: 100px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Datos input[type="password"]{
+    margin-left: 30px;
+    background-color: #f9f9f9;
+    border: rgb(250, 250, 250);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Datos input[type="number"]{
+    margin-left: 100px;
+    background-color: #f9f9f9;
+    border: rgb(250, 250, 250);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Datos input[type="button"]{
+    margin-left: 450px;
+    background-color: #f9f9f9;
+    border: rgb(250, 250, 250);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Datos input[type="button"]:hover{
+    background-color: #e6e6e69f;
+}
