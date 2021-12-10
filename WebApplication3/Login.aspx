@@ -13,16 +13,16 @@
         <div class="box">
                 <label>Correo: </label>
                 </br>
-                <asp:TextBox ID="Usuario" runat="server" Text=" " CssId="Usuario" />
+                <asp:TextBox ID="usuario" runat="server" Text=" " CssId="Usuario" />
                 </br>
                 </br>
                 <label>Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña" runat="server" Text=" " CssId="contraseña"/>
+                <asp:TextBox ID="contrasenia" runat="server" Text=" " CssId="contraseña"/>
                 </br>
                 </br>
                 <asp:Button ID="boton_ingresar" runat="server" Text="Iniciar Sesión"  CssId="boton_ingresar" OnClick="boton_ingresar_Click"/>
-                <a href="Registrar.aspx" class="boton_registrar">Registrar</a>
+                <asp:Button ID="boton_registrar" runat="server" Text="Registrar"  CssId="boton_registrar" OnClick="boton_registrar_Click" />
         </div>
     </form>
 </body>

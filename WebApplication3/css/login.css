@@ -2,11 +2,6 @@ body{
     background-color: rgb(151, 214, 250);
 }
 
-a {
-    color: black;
-    text-decoration: inherit;
-}
-
 .box{
     background-color: white;
     padding: 100px 100px;
@@ -71,6 +66,10 @@ input[type=submit]:hover{
     border-radius: 4px;
     cursor: pointer;
 }
+
+    #boton_registrar:hover {
+        background-color: rgb(90, 188, 245);
+    }
 
 #link{
     margin: 0px;
