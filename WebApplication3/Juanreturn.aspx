@@ -29,7 +29,7 @@
             </ul>
             <!--<button class="Carrito"><span class="icon-cart"></span></button>-->
             <span class="icon-car"><asp:Button ID="Carrito" runat="server" OnClick="Carrito_Click" CssClass="Carrito"></asp:Button></span>
-            <a href="Login.aspx" class="Iniciar-Registrar">Iniciar Sesión</a>
+            <asp:Button ID="Inciar" runat="server" Text="Iniciar Sesión" CssClass="Iniciar-Registrar" OnClick="Inciar_Click" />
         </div>
         </br>
         </br>

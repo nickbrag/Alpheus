@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace WebApplication3
 {
@@ -11,7 +14,26 @@ namespace WebApplication3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UsuarioLogin"] != null)
+            {
+                String UsuarioLogin = Session["UsuarioLogin"].ToString();
+                Inciar.Text = UsuarioLogin;
 
+                string conectar = ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
+                SqlConnection con = new SqlConnection(conectar);
+
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SELECT Nombre, Apellido_Paterno, Apellido_Materno, Fecha_de_Nacimiento FROM Usuarios WHERE Correo= '" + UsuarioLogin+"'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if(dr.Read()==true)
+                {
+                    Nombre.Text = dr["Nombre"].ToString();
+                    Apellido1.Text = dr["Apellido_Paterno"].ToString();
+                    Apellido2.Text = dr["Apellido_Materno"].ToString();
+                    Fecha.Text = dr["Fecha_de_Nacimiento"].ToString();
+                }
+                con.Close();
+            }
         }
 
         protected void Inicio_Click(object sender, EventArgs e)
@@ -65,6 +87,11 @@ namespace WebApplication3
         }
 
         protected void Actualizar_Metodo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Inciar_Click(object sender, EventArgs e)
         {
 
         }
