@@ -31,11 +31,13 @@ namespace WebApplication3
             SqlDataReader dr=cmd.ExecuteReader();
             if(dr.Read())
             {
+                Session["UsuarioLogin"] = usuario.Text;
                 Response.Redirect("Menu.aspx");
+                
             }
             else
             {
-                Response.Redirect("Registrar.aspx");
+                error.Text = "Correo/contraseña inválidos";
             }
             cmd.Connection.Close();
         }

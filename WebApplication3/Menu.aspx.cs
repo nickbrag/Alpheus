@@ -11,7 +11,11 @@ namespace WebApplication3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["UsuarioLogin"]!=null)
+            {
+                String UsuarioLogin=Session["UsuarioLogin"].ToString();
+                Inciar.Text = UsuarioLogin;
+            }
         }
 
         protected void Inicio_Click(object sender, EventArgs e)
@@ -68,6 +72,19 @@ namespace WebApplication3
         protected void Actualizar_Metodo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Inciar_Click(object sender, EventArgs e)
+        {
+            if (Session["UsuarioLogin"] != null)
+            {
+                Response.Redirect("Juanreturn.aspx");
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
+            
         }
     }
 }
