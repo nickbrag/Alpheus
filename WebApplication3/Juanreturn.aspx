@@ -39,11 +39,10 @@
         </br>
         <div class="Datos">
             <br>
-            <h2>Información</h2>
+            <label class="Direccion">Información</label> &nbsp;&nbsp;&nbsp;<label class="Metodo">Dirección</label>&nbsp;&nbsp;<br>
             <br>
             <br>
-            <br>
-            <label>Nombre: </label><asp:Label ID="Nombre" runat="server" Text=" " CssClass="Nombre" />
+            <label>Nombre: </label><asp:Label ID="Nombre" runat="server" Text=" " CssClass="Nombre" />&nbsp;&nbsp;&nbsp;
             <br>
             <br>
             <label>Apellido Paterno: </label><asp:Label ID="Apellido1" runat="server" Text=" " CssClass="Apellido_Paterno" />
@@ -57,7 +56,7 @@
             <br>
             <br>
             <br>
-            <label class="Direccion">Dirección</label> <label class="Metodo">Método de Pago</label>
+            <label class="Direccion">Dirección</label><asp:Label ID="Error_Direccion" runat="server" Text=" " /> <label class="Metodo">Método de Pago</label>
             <br>
             <label>Calle:* </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="Calle" runat="server" Text=" " CssClass="Calle"/> <label class="Correo">Correo: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="Correo" runat="server" Text=" " CssClass="Correotxt"/>
             <br>
@@ -83,7 +82,10 @@
             <br>
             <br>
             <br>
-            <asp:Button ID="Actualizar_Direccion" runat="server" Text="Actualizar" CssClass="Actualizar" />
+            <asp:Button ID="Actualizar_Direccion" runat="server" Text="Actualizar" CssClass="Actualizar" OnClick="Actualizar_Direccion_Click" />
+            <br />
+            <br />
+            <asp:Button ID="Cerrar" runat="server" Text="Cerrar Sesión" OnClick="Cerrar_Click" />
         </div> 
         </br>      
     </form>

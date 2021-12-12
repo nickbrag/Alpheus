@@ -101,6 +101,7 @@
     <Content Include="productos.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="Registrar.aspx" />
+    <Content Include="Verificar.aspx" />
     <Content Include="Web.config" />
     <Content Include="Administrador.aspx" />
   </ItemGroup>
@@ -154,6 +155,13 @@
     </Compile>
     <Compile Include="Administrador.aspx.designer.cs">
       <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Verificar.aspx.cs">
+      <DependentUpon>Verificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Verificar.aspx.designer.cs">
+      <DependentUpon>Verificar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

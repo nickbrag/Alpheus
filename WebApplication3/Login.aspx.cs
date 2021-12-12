@@ -29,11 +29,10 @@ namespace WebApplication3
             cmd.Parameters.Add("@correo", SqlDbType.VarChar, 50).Value = usuario.Text;
             cmd.Parameters.Add("@contrasenia", SqlDbType.VarChar, 8).Value = contrasenia.Text;
             SqlDataReader dr=cmd.ExecuteReader();
-            if(dr.Read())
+            if (dr.Read())
             {
-                Session["UsuarioLogin"] = usuario.Text;
-                Response.Redirect("Menu.aspx");
-                
+                 Session["UsuarioLogin"] = usuario.Text;
+                 Response.Redirect("Verificar.aspx");
             }
             else
             {
