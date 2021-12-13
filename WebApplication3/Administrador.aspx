@@ -17,35 +17,37 @@
             <br>
             <br>
             <label>Categoría:* </label>
+            <asp:DropDownList ID="Categoria" runat="server" DataSourceID="Administrador" DataTextField="Nombre" DataValueField="Nombre"></asp:DropDownList>
+            <asp:SqlDataSource ID="Administrador" runat="server" ConnectionString="<%$ ConnectionStrings:conexion %>" SelectCommand="SELECT [Nombre] FROM [Categorias]"></asp:SqlDataSource>
             <br>
             <br>
-            <label>Nombre:* </label> <input type="text" name="NombreMedicamento" />
+            <label>Nombre:* </label><asp:TextBox ID="Nombre_Medicamento" runat="server" Text="" />
             <br>
             <br>
-            <label>Descripción: </label> <input type="text" name="DescripcionMedicamento" />
+            <label>Descripción: </label> <asp:TextBox ID="Descripcion_Medicamento" runat="server" Text="" />
             <br>
             <br>
-            <label>Precio:* </label><input type="number" name="Precio" />
+            <label>Precio:* </label><asp:TextBox ID="TextBox1" runat="server" Text="" />
             <br>
             <br>
             <label>Dirección de la Imágen: </label> <input type="text" name="Direccion" />
             <br>
             <br>
-            <input type="button" name="Agregar" value="Agregar" />
-        </div>
+            <asp:Button ID="Agregar_Medicamento" runat="server" Text="Agregar" />
+         </div>
         <br>
         <div class="Categoría">
             <br>
             <label>Agregar Categorías</label>
             <br>
             <br>
-            <label>Nombre: </label><input type="text" name="NombreCategoria" />
+            <label>Nombre: </label><asp:TextBox ID="Nombre_Categoría" runat="server" Text="" />
             <br>
             <br>
-            <label>Actividad Terapéutica: </label><input type="text" name="Actividad" />
+            <label>Actividad Terapéutica: </label><asp:TextBox ID="Actividad" runat="server" Text="" />
             <br>
             <br>
-            <input type="button" name="Agregar_Categoria" value="Agregar" />
+            <asp:Button ID="Agregar_Categoria" runat="server" Text="Agregar" />
         </div>
         <br>
         <div class="Empleados">
@@ -53,48 +55,48 @@
             <label>Agregar Empleados</label>
             <br>
             <br>
-            <label>Nombre: </label>
+            <label>Nombre: </label> <asp:TextBox ID="Nombre_Empleado" runat="server" Text="" />
             <br>
             <br>
-            <label>Apellido Paterno: </label>
+            <label>Apellido Paterno: </label> <asp:TextBox ID="Apellido" runat="server" Text="" />
             <br>
             <br>
-            <label>Apellido Materno: </label>
+            <label>Apellido Materno: </label><asp:TextBox ID="Apellido2" runat="server" Text="" />
             <br>
             <br>
-            <label>Correo: </label>
+            <label>Correo: </label><asp:TextBox ID="correo" runat="server" Text="" TextMode="Email"/>
             <br>
             <br>
-            <label>Contraseña: </label>
+            <label>Contraseña: </label><asp:TextBox ID="contraseña" runat="server" Text="" TextMode="Password" />
             <br>
             <br>
-            <label>Confirmar Contraseña: </label>
+            <label>Confirmar Contraseña: </label><asp:TextBox ID="contraseña2" runat="server" Text="" TextMode="Password" />
             <br>
             <br>
-            <label>Fecha de Nacimiento: </label>
+            <label>Fecha de Nacimiento: </label><asp:TextBox ID="Fecha" runat="server" Text="" TextMode="Date"/>
             <br>
             <br>
             <label class="Direccion">Dirección</label> 
             <br>
-            <label>Calle:* </label> <input type="text" name="Calle" class="Calle" /> 
+            <label>Calle:* </label> <asp:TextBox ID="Calle" runat="server" Text="" /> 
             <br>
             <br>
-            <label>Num. Exterior:* </label> <input type="number" name="Num_Exterior" class="Num_Exterior" />
+            <label>Num. Exterior:* </label> <asp:TextBox ID="Num_Ext" runat="server" Text="" TextMode="Number"/>
             <br>
             <br>
-            <label>Num. Interior: </label><input type="number" name="Num_Interior" class="Num_Interior" /> 
+            <label>Num. Interior: </label><asp:TextBox ID="Num_Int" runat="server" Text="" TextMode="Number"/>
             <br>
             <br>
-            <label>Código Postal:* </label> <input type="number" name="Postal" class="Postal" /> 
+            <label>Código Postal:* </label> <asp:TextBox ID="CP" runat="server" Text="" TextMode="Number" />
             <br>
             <br>
-            <label>Municipio:* </label> <input type="text" name="Municipio" class="Municipio" />
+            <label>Municipio:* </label> <asp:TextBox ID="Municipio" runat="server" Text="" />
             <br>
             <br>
-            <label>Estado:* </label> <input type="text" name="Estado" class="Estado" />
+            <label>Estado:* </label> <asp:TextBox ID="Estado" runat="server" Text="" />
             <br>
             <br>
-            <input type="button" value="Añadir" name="Añadir" class="Añadir" />
+            <asp:Button ID="Agregar_Empleados" runat="server" Text="Agregar" />
         </div>
 
         <asp:Button ID="Cerrar" runat="server" Text="Cerrar Sesión" OnClick="Cerrar_Click" />
