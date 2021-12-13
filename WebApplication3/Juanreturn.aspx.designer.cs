@@ -15,22 +15,13 @@ namespace WebApplication3
     {
 
         /// <summary>
-        /// Control form2.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
-
-        /// <summary>
-        /// Control Inicio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Inicio;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// Control Buscar.
@@ -114,13 +105,13 @@ namespace WebApplication3
         protected global::System.Web.UI.WebControls.Button Carrito;
 
         /// <summary>
-        /// Control Iniciar.
+        /// Control Inciar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Iniciar;
+        protected global::System.Web.UI.WebControls.Button Inciar;
 
         /// <summary>
         /// Control Nombre.
@@ -159,6 +150,24 @@ namespace WebApplication3
         protected global::System.Web.UI.WebControls.Label Fecha;
 
         /// <summary>
+        /// Control Error_Direccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Error_Direccion;
+
+        /// <summary>
+        /// Control Error_Metodo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Error_Metodo;
+
+        /// <summary>
         /// Control Calle.
         /// </summary>
         /// <remarks>
@@ -186,6 +195,15 @@ namespace WebApplication3
         protected global::System.Web.UI.WebControls.TextBox Num_Exterior;
 
         /// <summary>
+        /// Control Contraseña.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Contraseña;
+
+        /// <summary>
         /// Control Num_Interior.
         /// </summary>
         /// <remarks>
@@ -193,6 +211,15 @@ namespace WebApplication3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Num_Interior;
+
+        /// <summary>
+        /// Control Contraseña2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Contraseña2;
 
         /// <summary>
         /// Control CP.
@@ -211,6 +238,15 @@ namespace WebApplication3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Actualizar_Metodo;
+
+        /// <summary>
+        /// Control Buscar_Metodo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Buscar_Metodo;
 
         /// <summary>
         /// Control Municipio.
@@ -238,5 +274,23 @@ namespace WebApplication3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Actualizar_Direccion;
+
+        /// <summary>
+        /// Control Buscar_Registro.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Buscar_Registro;
+
+        /// <summary>
+        /// Control Cerrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Cerrar;
     }
 }

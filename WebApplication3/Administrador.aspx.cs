@@ -13,5 +13,11 @@ namespace WebApplication3
         {
 
         }
+
+        protected void Cerrar_Click(object sender, EventArgs e)
+        {
+            Session.Remove("UsuarioLogin");
+            Response.Redirect("Menu.aspx");
+        }
     }
 }

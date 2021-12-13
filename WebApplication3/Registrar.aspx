@@ -11,6 +11,9 @@
 <body>
     <form id="form1" runat="server">
         <div class="box">
+                <br />
+                <asp:Label ID="Label1" runat="server" Text=" " />
+                <br />
                 <label>Nombre: </label>
                 </br>
                 <asp:TextBox ID="nombre" runat="server" Text=" " CssId="nombre" /> 
@@ -33,19 +36,19 @@
                 </br>
                 <label>Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña" runat="server" Text=" " CssId="contraseña" /> 
+                <asp:TextBox ID="contraseña" runat="server" Text=" " CssId="contraseña" TextMode="Password" /> 
                 </br>
                 </br>
                 <label>Confirmar Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña2" runat="server" Text=" " CssId="contraseña" /> 
+                <asp:TextBox ID="contraseña2" runat="server" Text=" " CssId="contraseña" TextMode="Password"/> 
                 <br />
                 <br />
                 <label>Fecha de nacimiento: </label>
                 </br>
-                <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                <asp:TextBox ID="Fecha" runat="server" Text=" " CssId="contraseña" TextMode="Date" />
                 </br>
-                <asp:Button ID="registrar2" runat="server" Text="Registrar" CssId="boton_ingresar" />
+                <asp:Button ID="registrar2" runat="server" Text="Registrar" CssId="boton_ingresar" OnClick="registrar2_Click" />
         </div>
     </form>
 </body>

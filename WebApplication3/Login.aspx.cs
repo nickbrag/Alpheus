@@ -26,11 +26,24 @@ namespace WebApplication3
                 CommandType = CommandType.StoredProcedure
             };
             cmd.Connection.Open();
-            cmd.Parameters.Add("@correo", SqlDbType.VarChar, 50).Value = Usuario.Text;
-            cmd.Parameters.Add("@contraseña", SqlDbType.VarChar, 8).Value = contraseña.Text;
+            cmd.Parameters.Add("@correo", SqlDbType.VarChar, 50).Value = usuario.Text;
+            cmd.Parameters.Add("@contrasenia", SqlDbType.VarChar, 8).Value = contrasenia.Text;
             SqlDataReader dr=cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                 Session["UsuarioLogin"] = usuario.Text;
+                 Response.Redirect("Verificar.aspx");
+            }
+            else
+            {
+                error.Text = "Correo/contraseña inválidos";
+            }
+            cmd.Connection.Close();
+        }
 
-        
+        protected void boton_registrar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registrar.aspx");
         }
     }
 }

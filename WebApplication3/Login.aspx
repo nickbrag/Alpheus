@@ -11,18 +11,21 @@
 <body>
     <form id="form1" runat="server">
         <div class="box">
+                <br />
+                <asp:Label ID="error" runat="server" Text=" " />
+                <br />
                 <label>Correo: </label>
                 </br>
-                <asp:TextBox ID="Usuario" runat="server" Text=" " CssId="Usuario" />
+                <asp:TextBox ID="usuario" runat="server" Text=" "  CssId="Usuario" placeholder="ejemplo@dominio.com"/>
                 </br>
                 </br>
                 <label>Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña" runat="server" Text=" " CssId="contraseña"/>
+                <asp:TextBox ID="contrasenia" runat="server" Text=" " TextMode="Password" CssId="contraseña" placeholder="********"/>
                 </br>
                 </br>
                 <asp:Button ID="boton_ingresar" runat="server" Text="Iniciar Sesión"  CssId="boton_ingresar" OnClick="boton_ingresar_Click"/>
-                <asp:Button ID="boton_registrar" runat="server" Text="Registrarse"  CssId="boton_registrar"/>
+                <asp:Button ID="boton_registrar" runat="server" Text="Registrar"  CssId="boton_registrar" OnClick="boton_registrar_Click" />
         </div>
     </form>
 </body>

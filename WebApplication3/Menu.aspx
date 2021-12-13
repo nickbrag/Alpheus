@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="menu">
-            <asp:Button ID="Inicio" runat="server" Text="Farmacia Alpheus" OnClick="Inicio_Click" CssClass="Inicio"/>
+            <a href="Menu.aspx" class="Inicio">Farmacia Alpheus</a>
             <span class="icon-search"></span><asp:TextBox ID="Buscar" runat="server" Text="Buscar..." CssClass="Buscar"/>
             <ul class="Categoria">
                 <li class="Categoria-text">
@@ -31,7 +31,7 @@
             </ul>
             <!--<button class="Carrito"><span class="icon-cart"></span></button>-->
             <span class="icon-car"><asp:Button ID="Carrito" runat="server" OnClick="Carrito_Click" CssClass="Carrito"></asp:Button></span>
-            <a href="Login.aspx" class="Iniciar-Registrar">Iniciar Sesión</a>
+            <asp:Button ID="Inciar" runat="server" Text="Iniciar Sesión" CssClass="Iniciar-Registrar" OnClick="Inciar_Click" />
         </div>
         </br>
         </br>
