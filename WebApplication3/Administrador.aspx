@@ -13,6 +13,8 @@
             <body>
         <div class="Medicamentos">
             <br>
+            <asp:Label ID="Error_Medicamentos" runat="server" Text="" />
+            <br />
             <label>Agregar Medicamentos</label>
             <br>
             <br>
@@ -30,13 +32,15 @@
             <label>Precio:* </label><asp:TextBox ID="TextBox1" runat="server" Text="" />
             <br>
             <br>
-            <label>Dirección de la Imágen: </label> <input type="text" name="Direccion" />
+            <!--<label>Dirección de la Imágen: </label> <asp:TextBox ID="Direccion_Imagen" runat="server" Text="" />
+            --><br>
             <br>
-            <br>
-            <asp:Button ID="Agregar_Medicamento" runat="server" Text="Agregar" />
+            <asp:Button ID="Agregar_Medicamento" runat="server" Text="Agregar" OnClick="Agregar_Medicamento_Click" />
          </div>
         <br>
         <div class="Categoría">
+            <br />
+            <asp:Label ID="Error_Categorias" runat="server" Text="" />
             <br>
             <label>Agregar Categorías</label>
             <br>
@@ -47,11 +51,13 @@
             <label>Actividad Terapéutica: </label><asp:TextBox ID="Actividad" runat="server" Text="" />
             <br>
             <br>
-            <asp:Button ID="Agregar_Categoria" runat="server" Text="Agregar" />
+            <asp:Button ID="Agregar_Categoria" runat="server" Text="Agregar" OnClick="Agregar_Categoria_Click" />
         </div>
         <br>
         <div class="Empleados">
             <br>
+            <asp:Label ID="Label1" runat="server" Text="" />
+            <br />
             <label>Agregar Empleados</label>
             <br>
             <br>
@@ -76,8 +82,16 @@
             <label>Fecha de Nacimiento: </label><asp:TextBox ID="Fecha" runat="server" Text="" TextMode="Date"/>
             <br>
             <br>
+            <asp:Button ID="Agregar_Empleado" runat="server" Text="Agregar" OnClick="Agregar_Empleado_Click" />
+            <br />
+            <br />
+            <asp:Label ID="Error_Direccion" runat="server" Text="" />
+            <br />
             <label class="Direccion">Dirección</label> 
             <br>
+            <label>Dirección de Correo del Domicilio:* </label><asp:TextBox ID="Correo_Buscar" runat="server" Text="" />
+            <br />
+            <br />
             <label>Calle:* </label> <asp:TextBox ID="Calle" runat="server" Text="" /> 
             <br>
             <br>
@@ -96,7 +110,7 @@
             <label>Estado:* </label> <asp:TextBox ID="Estado" runat="server" Text="" />
             <br>
             <br>
-            <asp:Button ID="Agregar_Empleados" runat="server" Text="Agregar" />
+            <asp:Button ID="Agregar_Empleados" runat="server" Text="Agregar" OnClick="Agregar_Empleados_Click" />
         </div>
 
         <asp:Button ID="Cerrar" runat="server" Text="Cerrar Sesión" OnClick="Cerrar_Click" />

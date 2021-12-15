@@ -13,6 +13,10 @@
         <div class="box">
                 <br />
                 <asp:Label ID="Label1" runat="server" Text=" " />
+            <asp:ScriptManager ID="LOL"  runat="server" 
+                <asp:ModelErrorMessage ID="Error_Registro" runat="server" Text="" />
+                <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                <script src="js/HolaMundo.js"></script>
                 <br />
                 <label>Nombre: </label>
                 </br>

@@ -87,6 +87,12 @@
     <Content Include="css\Juan.css" />
     <Content Include="css\login.css" />
     <Content Include="css\Read Me.txt" />
+    <Content Include="css\styles2.css" />
+    <Content Include="Gracias.aspx" />
+    <Content Include="img\categoria1.jpg" />
+    <Content Include="img\categoria2.jpg" />
+    <Content Include="img\categoria3.jpg" />
+    <Content Include="img\categoria4.jpg" />
     <Content Include="img\Categoria_Bebes.jfif" />
     <Content Include="img\Categoria_Bebes2.jfif" />
     <Content Include="img\Categoria_Cuidado.jfif" />
@@ -95,7 +101,213 @@
     <Content Include="css\Menu.css" />
     <Content Include="css\Registro.css" />
     <Content Include="css\style.css" />
+    <Content Include="index.aspx" />
+    <Content Include="index.html" />
+    <Content Include="js\HolaMundo.js" />
+    <Content Include="js\scripts.js" />
     <Content Include="Juanreturn.aspx" />
+    <Content Include="lib\pdf\CHANGELOG.txt" />
+    <Content Include="lib\pdf\classes\barcode.php" />
+    <Content Include="lib\pdf\classes\bmp.php" />
+    <Content Include="lib\pdf\classes\cssmgr.php" />
+    <Content Include="lib\pdf\classes\directw.php" />
+    <Content Include="lib\pdf\classes\form.php" />
+    <Content Include="lib\pdf\classes\gif.php" />
+    <Content Include="lib\pdf\classes\grad.php" />
+    <Content Include="lib\pdf\classes\indic.php" />
+    <Content Include="lib\pdf\classes\meter.php" />
+    <Content Include="lib\pdf\classes\svg.php" />
+    <Content Include="lib\pdf\classes\tocontents.php" />
+    <Content Include="lib\pdf\classes\ttfontsuni.php" />
+    <Content Include="lib\pdf\classes\ttfontsuni_analysis.php" />
+    <Content Include="lib\pdf\classes\wmf.php" />
+    <Content Include="lib\pdf\compress.php" />
+    <Content Include="lib\pdf\config.php" />
+    <Content Include="lib\pdf\config_cp.php" />
+    <Content Include="lib\pdf\config_fonts.php" />
+    <Content Include="lib\pdf\CREDITS.txt" />
+    <Content Include="lib\pdf\examples\alpha.gif" />
+    <Content Include="lib\pdf\examples\alpha.png" />
+    <Content Include="lib\pdf\examples\alpha3.png" />
+    <Content Include="lib\pdf\examples\bayeux1.jpg" />
+    <Content Include="lib\pdf\examples\bg.jpg" />
+    <Content Include="lib\pdf\examples\bgbarcode.png" />
+    <Content Include="lib\pdf\examples\bgrock.jpg" />
+    <Content Include="lib\pdf\examples\borders2FF.jpg" />
+    <Content Include="lib\pdf\examples\borders2IE.jpg" />
+    <Content Include="lib\pdf\examples\borders3FF.jpg" />
+    <Content Include="lib\pdf\examples\borders3IE.jpg" />
+    <Content Include="lib\pdf\examples\borders4FF.jpg" />
+    <Content Include="lib\pdf\examples\borders4IE.jpg" />
+    <Content Include="lib\pdf\examples\bordersFF.jpg" />
+    <Content Include="lib\pdf\examples\bordersIE.jpg" />
+    <Content Include="lib\pdf\examples\bordersMPDF2.jpg" />
+    <Content Include="lib\pdf\examples\clematis.jpg" />
+    <Content Include="lib\pdf\examples\example01_basic.php" />
+    <Content Include="lib\pdf\examples\example02_CSS_styles.php" />
+    <Content Include="lib\pdf\examples\example03_backgrounds_and_borders.php" />
+    <Content Include="lib\pdf\examples\example04_images.php" />
+    <Content Include="lib\pdf\examples\example05_tables.php" />
+    <Content Include="lib\pdf\examples\example06_tables_nested.php" />
+    <Content Include="lib\pdf\examples\example07_tables_borders.php" />
+    <Content Include="lib\pdf\examples\example08_lists.php" />
+    <Content Include="lib\pdf\examples\example09_forms.php" />
+    <Content Include="lib\pdf\examples\example10_floating_and_fixed_position_elements.php" />
+    <Content Include="lib\pdf\examples\example11_overflow_auto.php" />
+    <Content Include="lib\pdf\examples\example12_paging_html.php" />
+    <Content Include="lib\pdf\examples\example13_paging_css.php" />
+    <Content Include="lib\pdf\examples\example14_page_numbers_ToC_Index_Bookmarks.php" />
+    <Content Include="lib\pdf\examples\example15_headers_method_1.php" />
+    <Content Include="lib\pdf\examples\example16_headers_method_2.php" />
+    <Content Include="lib\pdf\examples\example17_headers_method_3.php" />
+    <Content Include="lib\pdf\examples\example18_headers_method_4.php" />
+    <Content Include="lib\pdf\examples\example19_page_sizes.php" />
+    <Content Include="lib\pdf\examples\example20_justify.php" />
+    <Content Include="lib\pdf\examples\example21_hyphenation.php" />
+    <Content Include="lib\pdf\examples\example22_columns.php" />
+    <Content Include="lib\pdf\examples\example23_orientation.php" />
+    <Content Include="lib\pdf\examples\example24_orientation_2.php" />
+    <Content Include="lib\pdf\examples\example26_RTL.php" />
+    <Content Include="lib\pdf\examples\example27_CJK_using_Adobe_fonts.php" />
+    <Content Include="lib\pdf\examples\example28_CJK_using_embedded_fonts.php" />
+    <Content Include="lib\pdf\examples\example29_multilingual_autofont.php" />
+    <Content Include="lib\pdf\examples\example30_arabic.php" />
+    <Content Include="lib\pdf\examples\example32_indic.php" />
+    <Content Include="lib\pdf\examples\example35_watermarks.php" />
+    <Content Include="lib\pdf\examples\example36_annotations_and_Attached_files.php" />
+    <Content Include="lib\pdf\examples\example37_barcodes.php" />
+    <Content Include="lib\pdf\examples\example38_dot_tab.php" />
+    <Content Include="lib\pdf\examples\example39_PDFA_compliance.php" />
+    <Content Include="lib\pdf\examples\example40_MPDFI_thumbnails.php" />
+    <Content Include="lib\pdf\examples\example41_MPDFI_template.php" />
+    <Content Include="lib\pdf\examples\example42_MPDFI_templatedoc.php" />
+    <Content Include="lib\pdf\examples\example43_MPDFI_booklet.php" />
+    <Content Include="lib\pdf\examples\example44_MPDFI_yearbook.php" />
+    <Content Include="lib\pdf\examples\example46_progress_bars_simple.php" />
+    <Content Include="lib\pdf\examples\example47_progress_bars_simple_custom.php" />
+    <Content Include="lib\pdf\examples\example48_progress_bars_advanced.php" />
+    <Content Include="lib\pdf\examples\example49_changelog.php" />
+    <Content Include="lib\pdf\examples\example50_new_mPDF_3_features.php" />
+    <Content Include="lib\pdf\examples\example51_new_mPDF_4_features.php" />
+    <Content Include="lib\pdf\examples\example52_lineheight.htm" />
+    <Content Include="lib\pdf\examples\example52_new_mPDF_4-2_features.php" />
+    <Content Include="lib\pdf\examples\example53_new_mPDF_v5-0_fonts.php" />
+    <Content Include="lib\pdf\examples\example54_new_mPDF_v5-1_features_gradients_and_images.php" />
+    <Content Include="lib\pdf\examples\example55_new_mPDF_v5-1_color_and_other_features.php" />
+    <Content Include="lib\pdf\examples\example56_new_mPDF_v5-1_features_grayscale.php" />
+    <Content Include="lib\pdf\examples\example57_new_mPDF_v5-3_active_forms.php" />
+    <Content Include="lib\pdf\examples\example57_new_mPDF_v5-3_active_forms_b.php" />
+    <Content Include="lib\pdf\examples\example58_new_mPDF_v5-4_features.php" />
+    <Content Include="lib\pdf\examples\example59_new_mPDF_v5-6_features.php" />
+    <Content Include="lib\pdf\examples\example60_new_mPDF_v5-7_features.php" />
+    <Content Include="lib\pdf\examples\firefox-48.png" />
+    <Content Include="lib\pdf\examples\flowers-pattern.jpg" />
+    <Content Include="lib\pdf\examples\formsubmit.php" />
+    <Content Include="lib\pdf\examples\goto.gif" />
+    <Content Include="lib\pdf\examples\img1.png" />
+    <Content Include="lib\pdf\examples\img2.png" />
+    <Content Include="lib\pdf\examples\img3.png" />
+    <Content Include="lib\pdf\examples\img4.png" />
+    <Content Include="lib\pdf\examples\img5.png" />
+    <Content Include="lib\pdf\examples\index.php" />
+    <Content Include="lib\pdf\examples\klematis.jpg" />
+    <Content Include="lib\pdf\examples\loading.gif" />
+    <Content Include="lib\pdf\examples\mpdfstyleA4.css" />
+    <Content Include="lib\pdf\examples\mpdfstylePaged.css" />
+    <Content Include="lib\pdf\examples\mpdfstyletables.css" />
+    <Content Include="lib\pdf\examples\quran282.jpg" />
+    <Content Include="lib\pdf\examples\show_code.php" />
+    <Content Include="lib\pdf\examples\sunset.jpg" />
+    <Content Include="lib\pdf\examples\sunsetv.jpg" />
+    <Content Include="lib\pdf\examples\tiger.bmp" />
+    <Content Include="lib\pdf\examples\tiger.gif" />
+    <Content Include="lib\pdf\examples\tiger.jpg" />
+    <Content Include="lib\pdf\examples\tiger.php" />
+    <Content Include="lib\pdf\examples\tiger.png" />
+    <Content Include="lib\pdf\examples\tiger.svg" />
+    <Content Include="lib\pdf\examples\tiger.wmf" />
+    <Content Include="lib\pdf\examples\tiger2.png" />
+    <Content Include="lib\pdf\examples\tiger2.wmf" />
+    <Content Include="lib\pdf\examples\tiger24trns.png" />
+    <Content Include="lib\pdf\examples\tiger300px300dpi.jpg" />
+    <Content Include="lib\pdf\examples\tiger300px300dpi.png" />
+    <Content Include="lib\pdf\examples\tiger300px72dpi.jpg" />
+    <Content Include="lib\pdf\examples\tiger300px96dpi.jpg" />
+    <Content Include="lib\pdf\examples\tiger300px96dpi.png" />
+    <Content Include="lib\pdf\examples\tiger8trns.gif" />
+    <Content Include="lib\pdf\examples\tiger8trns.png" />
+    <Content Include="lib\pdf\examples\tigercmyk.jpg" />
+    <Content Include="lib\pdf\examples\tux.svg" />
+    <Content Include="lib\pdf\examples\windmill.jpg" />
+    <Content Include="lib\pdf\FONT INFO.txt" />
+    <Content Include="lib\pdf\font\ccourier.php" />
+    <Content Include="lib\pdf\font\ccourierb.php" />
+    <Content Include="lib\pdf\font\ccourierbi.php" />
+    <Content Include="lib\pdf\font\ccourieri.php" />
+    <Content Include="lib\pdf\font\chelvetica.php" />
+    <Content Include="lib\pdf\font\chelveticab.php" />
+    <Content Include="lib\pdf\font\chelveticabi.php" />
+    <Content Include="lib\pdf\font\chelveticai.php" />
+    <Content Include="lib\pdf\font\csymbol.php" />
+    <Content Include="lib\pdf\font\ctimes.php" />
+    <Content Include="lib\pdf\font\ctimesb.php" />
+    <Content Include="lib\pdf\font\ctimesbi.php" />
+    <Content Include="lib\pdf\font\ctimesi.php" />
+    <Content Include="lib\pdf\font\czapfdingbats.php" />
+    <Content Include="lib\pdf\graph.php" />
+    <Content Include="lib\pdf\graph_cache\dummy.txt" />
+    <Content Include="lib\pdf\includes\CJKdata.php" />
+    <Content Include="lib\pdf\includes\functions.php" />
+    <Content Include="lib\pdf\includes\ind_bn_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_gu_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_hi_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_kn_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_ml_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_or_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_pa_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_ta_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\ind_te_1_001.volt.php" />
+    <Content Include="lib\pdf\includes\no_image.jpg" />
+    <Content Include="lib\pdf\includes\out.php" />
+    <Content Include="lib\pdf\includes\subs_core.php" />
+    <Content Include="lib\pdf\includes\subs_win-1252.php" />
+    <Content Include="lib\pdf\includes\upperCase.php" />
+    <Content Include="lib\pdf\LICENSE.txt" />
+    <Content Include="lib\pdf\mpdf.css" />
+    <Content Include="lib\pdf\mpdf.php" />
+    <Content Include="lib\pdf\mpdfi\filters\FilterASCII85.php" />
+    <Content Include="lib\pdf\mpdfi\filters\FilterLZW.php" />
+    <Content Include="lib\pdf\mpdfi\fpdi_pdf_parser.php" />
+    <Content Include="lib\pdf\mpdfi\pdf_context.php" />
+    <Content Include="lib\pdf\mpdfi\pdf_parser.php" />
+    <Content Include="lib\pdf\patterns\de.php" />
+    <Content Include="lib\pdf\patterns\dictionary.txt" />
+    <Content Include="lib\pdf\patterns\en.php" />
+    <Content Include="lib\pdf\patterns\es.php" />
+    <Content Include="lib\pdf\patterns\fi.php" />
+    <Content Include="lib\pdf\patterns\fr.php" />
+    <Content Include="lib\pdf\patterns\it.php" />
+    <Content Include="lib\pdf\patterns\nl.php" />
+    <Content Include="lib\pdf\patterns\NOTES.txt" />
+    <Content Include="lib\pdf\patterns\pl.php" />
+    <Content Include="lib\pdf\patterns\ru.php" />
+    <Content Include="lib\pdf\patterns\sv.php" />
+    <Content Include="lib\pdf\progbar.css" />
+    <Content Include="lib\pdf\README.txt" />
+    <Content Include="lib\pdf\tmp\dummy.txt" />
+    <Content Include="lib\pdf\ttfontdata\dummy.txt" />
+    <Content Include="lib\pdf\ttfonts\DejaVuinfo.txt" />
+    <Content Include="lib\pdf\ttfonts\GNUFreeFontinfo.txt" />
+    <Content Include="lib\pdf\ttfonts\ocrbinfo.txt" />
+    <Content Include="lib\pdf\ttfonts\Thai Fonts License.txt" />
+    <Content Include="lib\pdf\ttfonts\XW Zar Font Info.txt" />
+    <Content Include="lib\pdf\utils\font_collections.php" />
+    <Content Include="lib\pdf\utils\font_coverage.php" />
+    <Content Include="lib\pdf\utils\font_dump.php" />
+    <Content Include="lib\pdf\utils\font_names.php" />
+    <Content Include="lib\pdf\utils\index.php" />
+    <Content Include="lib\pdf\utils\UnicodeData.txt" />
+    <Content Include="lib\pdf\utils\UnicodeRanges.php" />
     <Content Include="Login.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="productos.aspx" />
@@ -106,6 +318,20 @@
     <Content Include="Administrador.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gracias.aspx.cs">
+      <DependentUpon>Gracias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gracias.aspx.designer.cs">
+      <DependentUpon>Gracias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Juanreturn.aspx.cs">
       <DependentUpon>Juanreturn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,6 +382,7 @@
     <Compile Include="Administrador.aspx.designer.cs">
       <DependentUpon>Administrador.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Venta.cs" />
     <Compile Include="Verificar.aspx.cs">
       <DependentUpon>Verificar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -181,6 +408,60 @@
     <Content Include="css\img\icomoon.zip" />
     <Content Include="css\img\selection.json" />
     <Content Include="css\selection.json" />
+    <Content Include="lib\pdf\examples\sample_basic.pdf" />
+    <Content Include="lib\pdf\examples\sample_logoheader2.pdf" />
+    <Content Include="lib\pdf\examples\sample_orientation2.pdf" />
+    <Content Include="lib\pdf\examples\sample_orientation3.pdf" />
+    <Content Include="lib\pdf\examples\test.pdf" />
+    <Content Include="lib\pdf\examples\tiger" />
+    <Content Include="lib\pdf\iccprofiles\sRGB_IEC61966-2-1.icc" />
+    <Content Include="lib\pdf\iccprofiles\SWOP2006_Coated5v2.icc" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSans-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSans-BoldOblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSans-Oblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSans.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansCondensed-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansCondensed-BoldOblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansCondensed-Oblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansCondensed.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansMono-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansMono-BoldOblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansMono-Oblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSansMono.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerif-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerif-BoldItalic.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerif-Italic.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerif.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerifCondensed-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerifCondensed-BoldItalic.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerifCondensed-Italic.ttf" />
+    <Content Include="lib\pdf\ttfonts\DejaVuSerifCondensed.ttf" />
+    <Content Include="lib\pdf\ttfonts\Garuda-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\Garuda-BoldOblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\Garuda-Oblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\Garuda.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_bn_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_gu_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_hi_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_kn_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_ml_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_or_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_pa_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_ta_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\ind_te_1_001.ttf" />
+    <Content Include="lib\pdf\ttfonts\Norasi-Bold.ttf" />
+    <Content Include="lib\pdf\ttfonts\Norasi-BoldOblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\Norasi-Oblique.ttf" />
+    <Content Include="lib\pdf\ttfonts\Norasi.ttf" />
+    <Content Include="lib\pdf\ttfonts\ocrb10.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB Riyaz.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB RiyazBd.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB RiyazBdIt.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB RiyazIt.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB Zar Bd.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB Zar BdIt.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB Zar It.ttf" />
+    <Content Include="lib\pdf\ttfonts\XB Zar.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -191,6 +472,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\reporte\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

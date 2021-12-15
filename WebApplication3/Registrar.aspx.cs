@@ -38,17 +38,31 @@ namespace WebApplication3
                     cmd.Parameters.Add("@contraseña_usuario", SqlDbType.VarChar, 8).Value = contraseña.Text;
                     cmd.Parameters.Add("@fecha_usuario", SqlDbType.Date).Value = Fecha.Text;
                     cmd.Parameters.Add("@tipo_usuario", SqlDbType.Int).Value = tipo;
-                    SqlDataReader dr = cmd.ExecuteReader();
-                    if (dr.Read())
+                    try
                     {
-                        Label1.Text = "Error en el registro de usuario";
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        if (dr.Read())
+                        {
+                            Label1.Text = "Error en el registro de usuario";
+                        }
+                        else
+                        {
+                            Response.Redirect("Menu.aspx");
+                            Label1.Text = "Usuario Registrado";
+                        }
+                        cmd.Connection.Close();
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        Response.Redirect("Menu.aspx");
-                        Label1.Text = "Usuario Registrado";
+                        Error_Registro.Text = "Correo ya registrado, intente otro.";
+                        nombre.Text = "";
+                        apellido.Text = "";
+                        apellido2.Text = "";
+                        correo.Text = "";
+                        contraseña.Text = "";
+                        Fecha.Text = "";
                     }
-                    cmd.Connection.Close();
+                    
                 }
                 else
                 {
@@ -57,7 +71,7 @@ namespace WebApplication3
             }
             else
             {
-                Label1.Text = "Alguno de los campos no está lleno.";
+                Error_Registro.Text = "Alguno de los campos no está lleno.";
             }
         }
     }

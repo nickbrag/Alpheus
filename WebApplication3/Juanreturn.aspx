@@ -15,8 +15,8 @@
             <span class="icon-search"></span><asp:TextBox ID="Buscar" runat="server" Text="Buscar..." CssClass="Buscar"/>
             <ul class="Categoria">
                 <li class="Categoria-text">
-                    <button class="Boton-Categoria">Categoría</button>
-                    <ul class="Categoria-Contenido">
+                    <asp:Button ID="Categoria" runat="server" Text="Productos" CssClass="Boton-Categoria" OnClick="Categoria_Click" />
+                    <!--<ul class="Categoria-Contenido">
                         <li><asp:Button ID="Medicamentos" runat="server" Text="Medicamentos" OnClick="Medicamentos_Click" CssClass="lista" /></li>
                         <li><asp:Button ID="Equipo" runat="server" Text="Equipo y Botiquín" OnClick="Equipo_Click" CssClass="lista" /></li>
                         <li><asp:Button ID="Salud" runat="server" Text="Salud Natural" OnClick="Salud_Click" CssClass="lista" /></li>
@@ -24,7 +24,7 @@
                         <li><asp:Button ID="Cuidado" runat="server" Text="Cuidado Personal y Belleza" OnClick="Cuidado_Click" CssClass="lista" /></li>
                         <li><asp:Button ID="Sexual" runat="server" Text="Salud Sexual" OnClick="Sexual_Click" CssClass="lista" /></li>
                         <li><asp:Button ID="Bebes" runat="server" Text="Bebés" OnClick="Bebes_Click" CssClass="lista" /></li>
-                    </ul>
+                    </ul>-->
                 </li>
             </ul>
             <!--<button class="Carrito"><span class="icon-cart"></span></button>-->

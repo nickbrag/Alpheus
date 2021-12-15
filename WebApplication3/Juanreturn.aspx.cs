@@ -315,5 +315,10 @@ namespace WebApplication3
                 }
             }
         }
+
+        protected void Categoria_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
+        }
     }
 }
