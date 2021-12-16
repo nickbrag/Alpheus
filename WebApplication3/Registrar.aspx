@@ -13,44 +13,42 @@
         <div class="box">
                 <br />
                 <asp:Label ID="Label1" runat="server" Text=" " />
-            <asp:ScriptManager ID="LOL"  runat="server" 
                 <asp:ModelErrorMessage ID="Error_Registro" runat="server" Text="" />
-                <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-                <script src="js/HolaMundo.js"></script>
+              
                 <br />
                 <label>Nombre: </label>
                 </br>
-                <asp:TextBox ID="nombre" runat="server" Text=" " CssId="nombre" /> 
+                <asp:TextBox ID="nombre" runat="server" Text="" CssId="nombre" /> 
                 </br>
                 </br>
                 <label>Apellido Paterno: </label>
                 </br>
-                <asp:TextBox ID="apellido" runat="server" Text=" " CssId="apellido" /> 
+                <asp:TextBox ID="apellido" runat="server" Text="" CssId="apellido" /> 
                 </br>
                 </br>
                 <label>Apellido Materno: </label>
                 </br>
-                <asp:TextBox ID="apellido2" runat="server" Text=" " CssId="apellido" /> 
+                <asp:TextBox ID="apellido2" runat="server" Text="" CssId="apellido" /> 
                 </br>
                 </br>
                 <label>Correo: </label>
                 </br>
-                <asp:TextBox ID="correo" runat="server" Text=" " CssId="correo" /> 
+                <asp:TextBox ID="correo" runat="server" Text="" CssId="correo" /> 
                 </br>
                 </br>
                 <label>Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña" runat="server" Text=" " CssId="contraseña" TextMode="Password" /> 
+                <asp:TextBox ID="contraseña" runat="server" Text="" CssId="contraseña" TextMode="Password" /> 
                 </br>
                 </br>
                 <label>Confirmar Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contraseña2" runat="server" Text=" " CssId="contraseña" TextMode="Password"/> 
+                <asp:TextBox ID="contraseña2" runat="server" Text="" CssId="contraseña" TextMode="Password"/> 
                 <br />
                 <br />
                 <label>Fecha de nacimiento: </label>
                 </br>
-                <asp:TextBox ID="Fecha" runat="server" Text=" " CssId="contraseña" TextMode="Date" />
+                <asp:TextBox ID="Fecha" runat="server" Text="" CssId="contraseña" TextMode="Date" />
                 </br>
                 <asp:Button ID="registrar2" runat="server" Text="Registrar" CssId="boton_ingresar" OnClick="registrar2_Click" />
         </div>

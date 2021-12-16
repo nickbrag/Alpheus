@@ -12,16 +12,16 @@
     <form id="form1" runat="server">
         <div class="box">
                 <br />
-                <asp:Label ID="error" runat="server" Text=" " />
+                <asp:Label ID="error" runat="server" Text="" />
                 <br />
                 <label>Correo: </label>
                 </br>
-                <asp:TextBox ID="usuario" runat="server" Text=" "  CssId="Usuario" placeholder="ejemplo@dominio.com"/>
+                <asp:TextBox ID="usuario" runat="server" Text=""  CssId="Usuario" placeholder="ejemplo@dominio.com"/>
                 </br>
                 </br>
                 <label>Contraseña: </label>
                 </br>
-                <asp:TextBox ID="contrasenia" runat="server" Text=" " TextMode="Password" CssId="contraseña" placeholder="********"/>
+                <asp:TextBox ID="contrasenia" runat="server" Text="" TextMode="Password" CssId="contraseña" placeholder="********"/>
                 </br>
                 </br>
                 <asp:Button ID="boton_ingresar" runat="server" Text="Iniciar Sesión"  CssId="boton_ingresar" OnClick="boton_ingresar_Click"/>
